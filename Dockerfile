@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-RUN npm install -g @typingmind/mcp \
+RUN npm install -g @typingmind/mcp 
 
 EXPOSE 8080
 
