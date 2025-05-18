@@ -6,7 +6,6 @@ RUN npm install -g @typingmind/mcp \
     @techspawn/woocommerce-mcp-server \
     stefans71/wordpress-mcp-server
 
-
 EXPOSE 8080
 
 # Do NOT hardcode the token here for production; use Railway Variables instead.
