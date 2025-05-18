@@ -3,8 +3,6 @@ FROM node:18-alpine
 WORKDIR /app
 
 RUN npm install -g @typingmind/mcp \
-    @techspawn/woocommerce-mcp-server \
-    stefans71/wordpress-mcp-server
 
 EXPOSE 8080
 
